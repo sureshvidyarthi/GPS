@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition in CSS</title>
+    <style>
+        div {
+            font-size: 20px;
+            color: purple;
+            width: 200px;
+            border: solid 2px purple;
+            transition: width 3s, height 4s, font-size 4s;
+            text-align: center;
+
+        }
+
+        div:hover {
+            width: 100%;
+            font-size: 100px;
+            background-color: purple;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Welcome to our College</p>
+    </div>
+</body>
+
+</html>
